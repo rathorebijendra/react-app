@@ -55,7 +55,6 @@ class Board extends React.Component {
 		this.state = {
 			squares : Array(9).fill(null),
 			xIsNext : true,
-			history: null,
 		};
 	}
   renderSquare(i) {
